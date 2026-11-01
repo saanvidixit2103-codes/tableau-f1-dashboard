@@ -14,7 +14,7 @@ export default function Hero() {
         fetchPriority="high"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-track-950/70 via-track-950/85 to-track-950" aria-hidden="true" />
-      <div className="absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-transparent via-f1-red to-transparent" aria-hidden="true" />
+      <div className="absolute inset-x-0 bottom-0 h-1 bg-gradient-to-r from-transparent via-accent to-transparent" aria-hidden="true" />
 
       <div className="relative mx-auto w-full max-w-7xl px-4 pb-24 pt-32 sm:px-6 lg:px-8">
         <motion.p
@@ -33,7 +33,7 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           className="font-display text-5xl font-black uppercase leading-[1.05] tracking-tight text-white sm:text-7xl lg:text-8xl"
         >
-          Formula <span className="text-f1-red drop-shadow-[0_0_24px_rgba(225,6,0,0.6)]">1</span>
+          Formula <span className="text-accent drop-shadow-[0_0_24px_rgba(34,211,238,0.6)]">1</span>
           <span className="mt-2 block text-2xl font-bold tracking-[0.2em] text-neutral-300 sm:text-3xl lg:text-4xl">
             Race Intelligence Dashboard
           </span>

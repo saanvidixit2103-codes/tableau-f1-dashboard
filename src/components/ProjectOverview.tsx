@@ -44,7 +44,7 @@ export default function ProjectOverview() {
             <ul className="mt-4 space-y-4">
               {tools.map((tool) => (
                 <li key={tool.name} className="flex items-start gap-4">
-                  <span className="mt-1 flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-f1-red/15 text-f1-redGlow">
+                  <span className="mt-1 flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-accent/15 text-accent-light">
                     <Layers className="h-5 w-5" aria-hidden="true" />
                   </span>
                   <span>
@@ -65,14 +65,14 @@ export default function ProjectOverview() {
         <div className="-mx-4 mt-8 overflow-x-auto px-4 pb-4 sm:mx-0 sm:px-0">
           <ol className="relative flex min-w-[900px] items-start justify-between">
             <span
-              className="absolute left-6 right-6 top-6 h-px bg-gradient-to-r from-f1-red via-f1-red/60 to-white/10"
+              className="absolute left-6 right-6 top-6 h-px bg-gradient-to-r from-accent via-accent/60 to-white/10"
               aria-hidden="true"
             />
             {steps.map((step, i) => {
               const Icon = step.icon;
               return (
                 <li key={step.label} className="group relative flex w-28 flex-col items-center text-center">
-                  <span className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full border border-f1-red/50 bg-track-950 text-f1-redGlow transition-all duration-300 group-hover:scale-110 group-hover:bg-f1-red group-hover:text-white group-hover:shadow-redGlow">
+                  <span className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full border border-accent/50 bg-track-950 text-accent-light transition-all duration-300 group-hover:scale-110 group-hover:bg-accent group-hover:text-track-950 group-hover:shadow-glow">
                     <Icon className="h-5 w-5" aria-hidden="true" />
                   </span>
                   <span className="mt-4 text-xs font-semibold text-neutral-500">{String(i + 1).padStart(2, "0")}</span>

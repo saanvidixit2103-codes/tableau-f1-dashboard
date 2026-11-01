@@ -37,8 +37,8 @@ export default function KpiStrip() {
       <div className="mx-auto grid max-w-7xl grid-cols-2 gap-px bg-white/10 lg:grid-cols-4">
         {stats.map((stat, i) => (
           <Reveal key={stat.label} delay={i * 0.08} className="bg-track-900">
-            <div className="group flex flex-col items-center justify-center px-6 py-10 text-center transition-colors duration-300 hover:bg-f1-red/5">
-              <p className="font-display text-4xl font-black text-white transition-colors group-hover:text-f1-redGlow sm:text-5xl">
+            <div className="group flex flex-col items-center justify-center px-6 py-10 text-center transition-colors duration-300 hover:bg-accent/5">
+              <p className="font-display text-4xl font-black text-white transition-colors group-hover:text-accent-light sm:text-5xl">
                 <CountUp to={stat.value} />
               </p>
               <p className="mt-3 text-xs font-semibold uppercase tracking-[0.2em] text-neutral-400 sm:text-sm">

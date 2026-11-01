@@ -6,7 +6,7 @@ import Reveal from "@/components/Reveal";
 import { GITHUB_URL, LINKEDIN_URL } from "@/config";
 
 const fieldClass =
-  "w-full rounded-xl border border-white/10 bg-track-900 px-4 py-3 text-white placeholder:text-neutral-500 transition-colors duration-200 focus:border-f1-red focus:outline-none focus:ring-2 focus:ring-f1-redGlow/40";
+  "w-full rounded-xl border border-white/10 bg-track-900 px-4 py-3 text-white placeholder:text-neutral-500 transition-colors duration-200 focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent-light/40";
 
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -39,7 +39,7 @@ export default function Contact() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub profile"
-              className="glass flex h-12 w-12 items-center justify-center rounded-full text-neutral-300 transition-all duration-300 hover:-translate-y-1 hover:border-f1-red hover:text-white hover:shadow-redGlow"
+              className="glass flex h-12 w-12 items-center justify-center rounded-full text-neutral-300 transition-all duration-300 hover:-translate-y-1 hover:border-accent hover:text-white hover:shadow-glow"
             >
               <Github className="h-5 w-5" aria-hidden="true" />
             </a>
@@ -48,7 +48,7 @@ export default function Contact() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn profile"
-              className="glass flex h-12 w-12 items-center justify-center rounded-full text-neutral-300 transition-all duration-300 hover:-translate-y-1 hover:border-f1-red hover:text-white hover:shadow-redGlow"
+              className="glass flex h-12 w-12 items-center justify-center rounded-full text-neutral-300 transition-all duration-300 hover:-translate-y-1 hover:border-accent hover:text-white hover:shadow-glow"
             >
               <Linkedin className="h-5 w-5" aria-hidden="true" />
             </a>

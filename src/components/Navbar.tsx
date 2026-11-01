@@ -32,9 +32,9 @@ export default function Navbar() {
     >
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8" aria-label="Main">
         <a href="#home" className="flex items-center gap-2 rounded-md" onClick={closeMenu}>
-          <Gauge className="h-6 w-6 text-f1-red" aria-hidden="true" />
+          <Gauge className="h-6 w-6 text-accent" aria-hidden="true" />
           <span className="font-display text-sm font-bold uppercase tracking-widest text-white">
-            F1<span className="text-f1-red">Intel</span>
+            F1<span className="text-accent">Intel</span>
           </span>
         </a>
 

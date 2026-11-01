@@ -19,10 +19,10 @@ export default function Drivers() {
             <Reveal key={driver.name} delay={(i % 4) * 0.08} className="h-full">
               <li className="glass-card group flex h-full flex-col p-6">
                 <div className="flex items-center justify-between">
-                  <span className="font-display text-3xl font-black text-white/15 transition-colors group-hover:text-f1-red/60">
+                  <span className="font-display text-3xl font-black text-white/15 transition-colors group-hover:text-accent/60">
                     {String(i + 1).padStart(2, "0")}
                   </span>
-                  <Flag className="h-5 w-5 text-f1-redGlow opacity-0 transition-opacity group-hover:opacity-100" aria-hidden="true" />
+                  <Flag className="h-5 w-5 text-accent-light opacity-0 transition-opacity group-hover:opacity-100" aria-hidden="true" />
                 </div>
                 <h3 className="mt-6 text-lg font-semibold text-white">{driver.name}</h3>
                 <p className="text-sm text-neutral-400">{driver.team}</p>
@@ -40,7 +40,7 @@ export default function Drivers() {
                     aria-valuemin={0}
                     aria-valuemax={100}
                   >
-                    <div className="h-full rounded-full bg-gradient-to-r from-f1-redDark to-f1-redGlow" style={{ width: `${share}%` }} />
+                    <div className="h-full rounded-full bg-gradient-to-r from-accent-dark to-accent-light" style={{ width: `${share}%` }} />
                   </div>
                 </div>
               </li>

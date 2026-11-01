@@ -55,7 +55,7 @@ export default function Insights() {
           return (
             <Reveal key={insight.title} delay={(i % 3) * 0.1} className="h-full">
               <li className="glass-card group flex h-full flex-col p-8">
-                <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-f1-red/15 text-f1-redGlow transition-colors duration-300 group-hover:bg-f1-red group-hover:text-white">
+                <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-accent/15 text-accent-light transition-colors duration-300 group-hover:bg-accent group-hover:text-track-950">
                   <Icon className="h-6 w-6" aria-hidden="true" />
                 </span>
                 <h3 className="mt-6 font-display text-base font-bold uppercase tracking-wide text-white">

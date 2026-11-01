@@ -16,7 +16,7 @@
   }
 
   :focus-visible {
-    @apply outline-none ring-2 ring-f1-redGlow ring-offset-2 ring-offset-track-950;
+    @apply outline-none ring-2 ring-accent-light ring-offset-2 ring-offset-track-950;
   }
 }
 
@@ -30,23 +30,23 @@
   }
 
   .glass-card:hover {
-    @apply border-f1-red/60 shadow-redGlow -translate-y-1;
+    @apply border-accent/60 shadow-glow -translate-y-1;
   }
 
   .btn-primary {
-    @apply inline-flex items-center justify-center gap-2 rounded-full bg-f1-red px-6 py-3 font-semibold text-white
-      transition-all duration-300 hover:bg-f1-redGlow hover:shadow-redGlow focus-visible:outline-none
-      focus-visible:ring-2 focus-visible:ring-f1-redGlow focus-visible:ring-offset-2 focus-visible:ring-offset-track-950;
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-accent px-6 py-3 font-semibold text-track-950
+      transition-all duration-300 hover:bg-accent-light hover:shadow-glow focus-visible:outline-none
+      focus-visible:ring-2 focus-visible:ring-accent-light focus-visible:ring-offset-2 focus-visible:ring-offset-track-950;
   }
 
   .btn-ghost {
     @apply inline-flex items-center justify-center gap-2 rounded-full border border-white/25 bg-white/5 px-6 py-3
-      font-semibold text-white backdrop-blur transition-all duration-300 hover:border-f1-red hover:bg-f1-red/10
-      focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-f1-redGlow focus-visible:ring-offset-2 focus-visible:ring-offset-track-950;
+      font-semibold text-white backdrop-blur transition-all duration-300 hover:border-accent hover:bg-accent/10
+      focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-light focus-visible:ring-offset-2 focus-visible:ring-offset-track-950;
   }
 
   .eyebrow {
-    @apply font-display text-xs font-semibold uppercase tracking-[0.3em] text-f1-redGlow;
+    @apply font-display text-xs font-semibold uppercase tracking-[0.3em] text-accent-light;
   }
 
   .section-title {

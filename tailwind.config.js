@@ -4,10 +4,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        f1: {
-          red: '#e10600',
-          redDark: '#a80400',
-          redGlow: '#ff2a1f',
+        accent: {
+          DEFAULT: '#22d3ee',
+          light: '#67e8f9',
+          dark: '#0e7490',
         },
         track: {
           950: '#0a0a0a',
@@ -21,7 +21,7 @@ export default {
         sans: ['Inter', 'system-ui', 'sans-serif'],
       },
       boxShadow: {
-        redGlow: '0 0 32px -4px rgba(225, 6, 0, 0.55)',
+        glow: '0 0 32px -4px rgba(34, 211, 238, 0.5)',
       },
     },
   },
