@@ -55,4 +55,12 @@ Filters on the dashboard let you slice results by season, DNF reason and Top N.
 
 ---
 
-## 📁 Repository Structure
+## 📂 Repository Structure
+```text
+├── Documentation/
+│   └── Formula_1_Race_Intelligence_Final_Report.pdf
+├── Visuals/
+│   └── dashboard_preview.png
+├── Data/
+│   └── f1_processed_race_data.csv (if applicable)
+└── README.md
