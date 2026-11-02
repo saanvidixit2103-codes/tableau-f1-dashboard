@@ -3,7 +3,7 @@
 **An interactive Tableau analytics project on Formula 1 driver performance, team strategy and championship trends, presented on a custom React website.**
 
 [![Live Site](https://img.shields.io/badge/Live%20Site-Bolt-brightgreen?style=for-the-badge)](https://formula-1-race-intel-ok3s.bolt.host)
-[![Tableau](https://img.shields.io/badge/Tableau-Public-E97627?style=for-the-badge&logo=tableau)](https://public.tableau.com/app/profile/saanvi.dixit2179/viz/shared/6NWQ3TC4W)
+[![Tableau](https://public.tableau.com/app/profile/saanvi.dixit2179/viz/f1raceintelligencedashboardfinal/Story1?publish=yes)](https://public.tableau.com/app/profile/saanvi.dixit2179/viz/shared/6NWQ3TC4W)
 [![React](https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38bdf8?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com)
