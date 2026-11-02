@@ -15,8 +15,7 @@
 This project turns Formula 1 race data into an interactive Tableau Public dashboard and a guided data story, then presents both on a responsive website built with React, Vite and Tailwind CSS.
 
 - **🌐 Live Site:** https://formula-1-race-intel-ok3s.bolt.host
-- **📊 Tableau Dashboard:** https://public.tableau.com/app/profile/saanvi.dixit2179/viz/shared/6NWQ3TC4W
-
+- **📊 Tableau Dashboard:** https://public.tableau.com/app/profile/saanvi.dixit2179/viz/f1raceintelligencedashboardfinal/Story1?publish=yes
 ---
 
 ## 📊 Dashboard at a Glance
